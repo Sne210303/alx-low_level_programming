@@ -13,7 +13,7 @@ int main(void)
 
 	while (k + j = 4000000)
 	{
-	j = k - j;
+	j = k + j;
 	++i;
 	}
 	printf("%\d\n", sum);
