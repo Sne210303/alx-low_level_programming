@@ -2,7 +2,7 @@
 
 /**
  * more_numbers - Prints 10 times the numbers since 0 up to 14
- * followed by a new line
+ * Return: 10 times of the numbers since 0 up to 14
  */
 
 void more_nmbers(void)
@@ -14,7 +14,7 @@ void more_nmbers(void)
 	{
 	for (y = 0; y <= 15; x++)
 	{
-	if (y >= 10)
+	if (y >= 9)
 	{
 	_putchar((y / 10) + '0');
 	}
